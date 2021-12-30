@@ -1,0 +1,112 @@
+
+body{
+	width: 100%;
+	height: 100vh;
+	/* overflow: hidden; */
+	padding: 10px;
+	background-color: rgb(89, 165, 226);
+}
+
+h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: 'Hind', sans-serif;
+}
+
+.title{
+	color: lime;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: lime;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{/*Es la opocidaa al pasar el cursor sobre el boton mas*/
+	opacity: 0.7;
+}
+
+.container{ /*Este es el contenedor de los registros  que se van generando */
+	display: flex;
+	flex-direction: column;/*Es el mode de acomodo de como se van netrando los registros 1,2,3 y no es l reves*/
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem; /*El espacio que se da entre los regsitros*/
+	background: rgb(1, 59, 73);
+  max-width: 500px; /* El largo de la tarjeta*/
+  width: 50%;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 10px;
+
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 1.5rem;
+	border-radius: 5px;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: lime;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: rgb(44, 8, 247);
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
+}
+  
